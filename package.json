@@ -1,0 +1,30 @@
+{
+  "name": "parslearn-tictactoe",
+  "version": "1.1.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParsLearn/Parslearn-TicTacToe.git"
+  },
+  "author": "Salman Samian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParsLearn/Parslearn-TicTacToe"
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "4.17.1",
+    "ejs": "^3.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}

@@ -1,0 +1,15 @@
+.idea
+**/node_modules
+data
+.vscode/launch.json
+api-docs/
+uploads/
+.vscode
+*.jpg
+/.vscode/
+launch.json
+/*-old
+*-old
+/*-old/
+*-old/
+package-lock.json

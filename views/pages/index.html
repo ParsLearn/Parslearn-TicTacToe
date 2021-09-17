@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ParsAlpha - ParsLearn - Tic Tac Toe</title>
+    <link href="dist/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="board">
+        <div id="grid">
+            <div class="square" onclick={nextTurn(0)}>
+                <p id="um"></p>
+            </div>
+            <div class="square" onclick={nextTurn(1)}>
+                <p id="dois"></p>
+            </div>
+            <div class="square" onclick={nextTurn(2)}>
+                <p id="tres"></p>
+            </div>
+            <div class="square" onclick={nextTurn(3)}>
+                <p id="quatro"></p>
+            </div>
+            <div class="square" onclick={nextTurn(4)}>
+                <p id="cinco"></p>
+            </div>
+            <div class="square" onclick={nextTurn(5)}>
+                <p id="seis"></p>
+            </div>
+            <div class="square" onclick={nextTurn(6)}>
+                <p id="sete"></p>
+            </div>
+            <div class="square" onclick={nextTurn(7)}>
+                <p id="oito"></p>
+            </div>
+            <div class="square" onclick={nextTurn(8)}>
+                <p id="nove"></p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="board-result">
+
+        <div>
+            <p>Side : <span id="side"></span></p>
+            <p>Existing state of the board :
+                ex) ['X', 'X', 'O', 'O', 'X', 'O', '' , '' , '']
+                <input id="existingdata" type="text" placeholder="['X', 'X', 'O', 'O', 'X', 'O', '' , '' , '']" />
+            </p>
+            <button type="button" id="sendToBoard" onclick={sendToBoard()}>Send to board</button>
+        </div>
+
+        <button type="button" id="restartButton" onclick={restartGame()}>Restart Game</button>
+    </div>
+
+
+
+
+
+    <script src="dist/js/TicTacToe.engine.js"></script>
+
+    <p class="footer">Code developed by <a href="https://github.com/salman-samian">Salman Samian</a> - <a
+            href="http://parsalpha.ir">ParsAlpha</a> - ParsLearn - Tic
+        Tac Toe </p>
+</body>
+
+</html>
